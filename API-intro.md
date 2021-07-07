@@ -6,7 +6,6 @@ A description of the full API
 
 Wix Things creates a catalog of things and allows site owners to create smaller collections of things by type or other attribute. A catalog organizes the site’s products and collections and facilitates doing stuff with things. With the Wix Things Catalog APIs you can query individual things, collections or the entire catalog, as well as create things and add their unique stuff.
 
-\>
 
 ## Terminology
 <!---
@@ -16,7 +15,6 @@ List of all main entities (objects) addressed by the API, and their relationship
 - **Catalog**: A single, complete list of all the sites’s things. Compiled automatically.
 - **Collections**: Themed groupings of things for stuff that a site owner can create to organize their whatever. Things can belong to multiple collections, but each collection may appear only once in the whole catalog. </br>
 
-\>
 
 ## Understanding X, Y, Z...
 
