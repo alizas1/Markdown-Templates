@@ -1,29 +1,35 @@
 # About the \<XXX\> API
 
-< </br>
-A description of the full API that focuses on the functionality the API provides within Wix (not how the Corvid dev or TPA will use it). </br> 
-<br>**For example:**
+<!---  
+A description of the full API
+--->
 
-Wix Stores creates a catalog of store owners’ items for purchase and allows store owners to create smaller collections of products by type or theme. A catalog organizes the store’s products and collections and facilitates inventory management. With the Wix Stores Catalog APIs you can query individual products, collections or the entire catalog, as well as create products and add their media. </br>
+Wix Things creates a catalog of things and allows site owners to create smaller collections of things by type or other attribute. A catalog organizes the site’s products and collections and facilitates doing stuff with things. With the Wix Things Catalog APIs you can query individual things, collections or the entire catalog, as well as create things and add their unique stuff.
 
-\>
 
 ## Terminology
-< </br>
-List of any general terms the writer needs to understand to document the API. Make sure to describe the individual entities and their relationships. </br>
-</br>**For example:**
+<!---
+List of all main entities (objects) addressed by the API, and their relationships to each other.
+--->
 
-- **Catalog**: A complete list of all the store’s products that is compiled automatically.
-- **Collections**: Themed groupings of items for purchase that a store owner can create to organize their products (e.g., Spring 2019, Running shoes, etc.). Products can belong to multiple collections. </br>
+- **Catalog**: A single, complete list of all the sites’s things. Compiled automatically.
+- **Collections**: Themed groupings of things for stuff that a site owner can create to organize their whatever. Things can belong to multiple collections, but each collection may appear only once in the whole catalog. </br>
 
-\>
+
+## Understanding X, Y, Z...
+
+<!--- notes on any especially complex entity or relationship needed to work with the API --->
+
+## Examples
+
+<!--- examples of more complex entities if needed --->
 
 ## Limitations
-< </br>**For example:**
-	- Price discounts for collections apply to every item in that collection, no matter the item's price. 
-	If the coupon sets a $10 discount and there is an $8 item in that collection, that item will be free when a 
-	customer applies the coupon code.
-	- Coupon codes are case and space sensitive. (We recommend instructing customers to copy and paste the
-	coupon code without making any changes.) </br>
-	
-\>
+
+	- Things can be automatically populated with stuff, but each bit of stuff needs to be added manually by a site member with the permissions or whatever.
+	- Things have to be in places. Stuff can be nowhere though.
+
+## Integrations
+
+<!--- other Wix apps that the API interacts indirectly with
+
